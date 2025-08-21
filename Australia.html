@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore a Austrália</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>  .header-container {
+      background-color: #03254c;
+      padding: 20px 0;
+    }
+    .navbutton {
+      color: white;
+      font-size: clamp(10px, 2vw, 20px);
+      text-align: center;
+      width: 100%;
+    }
+ @media (max-width: 768px) {
+      .header-container {
+        padding: 10px 0;
+      }}
+      img {
+      max-width: 100%;
+      height: auto;
+    }
+    .info-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card .icon {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.info-card h3 {
+  font-weight: bold;
+  color: #007BFF;
+  margin: 5px 0;
+}
+
+.info-card .badge {
+  display: inline-block;
+  background: #e9f2ff;
+  color: #007BFF;
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+}
+
+.info-card p {
+  color: #6c757d;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.border-top-blue { border-top: 4px solid #00aaff; }
+.border-top-green { border-top: 4px solid #00cc88; }
+.border-top-purple { border-top: 4px solid #8a2be2; }
+.border-top-orange { border-top: 4px solid #ff8800; }
+.border-top-yellow { border-top: 4px solid #ffcc00; }
+
+    </style>
+</head>
+<body >
+<div class="container-fluid header-container">
+    <div class="row">
+        <div class="col-md-5 col-sm-3 col-2"></div>
+        <div class="col-md-2 col-sm-6 col-8 logo-container text-center">
+            <img src="Imagens/Logo_DayDreaming_trasp 1.png" alt="Logo DayDreaming">
+        </div>
+        <div class="col-md-3 col-sm-1 d-none d-sm-block"></div>
+    
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-sm-6 col-md-6 col-6" style="background-color: #2a9df4; min-height: 60px; border: 5px solid white; display: flex; justify-content: center; align-items: center; padding: 15px 5px;">
+            <p class="navbutton">Quem Somos</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6 col-md-6 col-6" style="background-color: #2a9df4; min-height: 60px; border: 5px solid white; display: flex; justify-content: center; align-items: center; padding: 15px 5px;">
+            <p class="navbutton">Teste Vocacional</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6 col-md-6 col-6" style="background-color: #2a9df4; min-height: 60px; border: 5px solid white; display: flex; justify-content: center; align-items: center; padding: 15px 5px;">
+            <p class="navbutton">Simulador Prático</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6 col-md-6 col-6" style="background-color: #2a9df4; min-height: 60px; border: 5px solid white; display: flex; justify-content: center; align-items: center; padding: 15px 5px;">
+            <p class="navbutton">Comunidade</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="display: flex; justify-content: center;">
+    <img src="imagens/australia_background.png" style="width: 80%;">
+</div>
+<div class="container my-4">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="info-card border-top-blue">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="População" class="icon">
+        <h3>27,2M</h3>
+        <span class="badge">População</span>
+        <p>Habitantes em todo o país</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="info-card border-top-green">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616492.png" alt="HDI" class="icon">
+        <h3>7nd</h3>
+        <span class="badge">HDI Mundial</span>
+        <p>Índice de Desenvolvimento Humano</p>
+      </div>
+    </div>
+
+    
+
+    
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="info-card border-top-blue">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="Moeda" class="icon">
+        <h3>AUD</h3>
+        <span class="badge">Moeda Local</span>
+        <p>Dólar Australiano</p>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+<h2 class="text-center text-primary">Explore a Austrália</h2>
+<p class="text-center">Descubra tudo sobre estudar na Austrália</p>
+
+<!-- Menu de tópicos -->
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="clima-tab" data-bs-toggle="tab" data-bs-target="#clima" type="button" role="tab">🌡 Clima</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="academico-tab" data-bs-toggle="tab" data-bs-target="#academico" type="button" role="tab">📚 Acadêmico</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="custos-tab" data-bs-toggle="tab" data-bs-target="#custos" type="button" role="tab">💰 Custos</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="bolsas-tab" data-bs-toggle="tab" data-bs-target="#bolsas" type="button" role="tab">🎓 Bolsas</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="universidades-tab" data-bs-toggle="tab" data-bs-target="#universidades" type="button" role="tab">🏛 Universidades</button>
+  </li>
+</ul>
+
+<!-- Conteúdo -->
+<div class="tab-content p-3 border border-top-0" id="myTabContent">
+  <div class="tab-pane fade show active" id="clima" role="tabpanel">
+    <h4>Clima</h4>
+    <p>O clima australiano é bastante diversificado, variando de árido no interior a subtropical no norte e temperado no sudeste e sudoeste. A maior parte do país tem um clima desértico ou semiárido, enquanto o norte é tropical e apresenta duas estações: seca e chuvosa. As estações do ano na Austrália são opostas às do hemisfério norte: verão (dezembro a fevereiro), outono (março a maio), inverno (junho a agosto) e primavera (setembro a novembro). </p>
+  </div>
+  <div class="tab-pane fade" id="academico" role="tabpanel">
+    <h4>Calendario Academico</h4>
+    <p>O calendário acadêmico na Austrália para intercambistas é geralmente dividido em dois semestres, com o primeiro começando em fevereiro e o segundo em julho, similar ao sistema brasileiro. Os alunos podem optar por estudar um semestre ou um ano letivo completo. O ano letivo normalmente se estende de janeiro a novembro/dezembro.</p>
+    <h4><b>Estrutura do Ano Escolar</b></h4>
+    <ul>
+        <li><b>Semestres:</b> O ano letivo é dividido em dois semestres, com o primeiro começando em fevereiro e o segundo em julho.</li>
+        <li> <b>Férias:</b> As férias de verão (longa pausa de Natal) ocorrem de meados de dezembro ao final de janeiro. Há também pausas de duas semanas durante o ano, cujas datas exatas podem variar de estado para estado.</li>
+        <li><b>Duração do Curso:</b> Os cursos de inglês têm flexibilidade de duração, variando de 2 a 52 semanas. Cursos técnicos, universitários e de Ensino Médio geralmente têm programas de 6 meses a 5 anos.</li>
+        <li><b>Início das Aulas:</b> O início das aulas para cursos técnicos, por exemplo, costuma ser em fevereiro e julho, com algumas instituições privadas oferecendo outras datas.</li>
+        <li><b>Duração dos Cursos:</b> A duração dos cursos técnicos varia de 6 meses a 2 anos. A duração dos cursos universitários normalmente é de 3 a 4 anos.</li>
+        <li><b>Horário Escolar:</b> Um dia de aula típico começa por volta das 9h e termina às 15h. O almoço é normalmente trazido de casa, mas também pode ser comprado na escola.</li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" id="custos" role="tabpanel">
+    <h4>Custos</h4>
+    <p>O custo de vida na Austrália pode variar bastante dependendo da cidade e do estilo de vida, mas em geral, é considerado alto. <b>Um estudante pode esperar gastar em torno de AU$ 20.290 por ano.</b> De acordo com o site EF Brasil. Para uma pessoa sozinha, o custo médio mensal pode ficar entre AU$ 1.600 e AU$ 2.500, excluindo o aluguel.</p>
+    <h4><b>Gastos Principais:</b></h4>
+    <ul>
+        <li><b>Aluguel:</b> É o gasto mais significativo, especialmente em cidades como Sydney e Melbourne. Um quarto em um apartamento compartilhado pode custar entre AU$ 150 e AU$ 210 por semana.</li>
+        <li><b>Alimentação:</b> Refeições em restaurantes podem variar, mas refeições acessíveis podem custar entre AU$ 80 e AU$ 110 por prato.</li>
+        <li><b>Contas: </b>Contas básicas como eletricidade, água e internet podem variar entre AU$ 150 e AU$ 250 por mês, dependendo da cidade e do consumo.</li>
+        <li><b>Transporte: </b>O transporte público é eficiente, mas pode ser caro. O custo de um passe semanal ou mensal pode variar dependendo da cidade e da área de cobertura.</li>
+        <li><b>Seguro: </b>O seguro de saúde (OSHC) é obrigatório para estudantes e pode variar entre AU$ 600 e AU$ 1.500 por ano, de acordo com o <a href="https://australiancentre.com.br/o-que-esperar-do-custo-de-vida-na-australia-em-2025/">Australian Centre.</a></li>
+        <li><b>Entretenimento:</b> Gastos com lazer e entretenimento podem variar bastante, mas é importante considerar custos com atividades como academia, saídas e outras formas de lazer.</li>
+        </ul>
+        <h4>Dicas para economizar</h4>
+        <ul>
+            <li><b>Compartilhar moradia:</b> Dividir um apartamento ou casa com outras pessoas pode reduzir significativamente o custo do aluguel.</li>
+            <li><b>Cozinhar em casa:</b> Comer em restaurantes pode ser caro, então cozinhar em casa regularmente pode ajudar a economizar.</li>
+            <li><b>Usar transporte público:</b> Em vez de usar táxis ou aplicativos de transporte, utilizar o transporte público pode ser mais econômico, especialmente se você adquirir um passe mensal.</li>
+            <li><b>Aproveitar atividades gratuitas:</b> A Austrália oferece muitas atividades gratuitas, como parques, praias e museus com entrada gratuita.</li>
+            <li><b>Pesquisar e comparar:</b> Antes de se mudar, pesquise e compare os custos em diferentes cidades e bairros para encontrar opções mais acessíveis.</li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" id="bolsas" role="tabpanel">
+    <h4>Bolsas</h4>
+    <p>As principais bolsas de estudo para estudantes internacionais na Austrália incluem o <b>Research Training Program (RTP) Stipend Scholarship e o RTP Fee Offset</b> que cobrem taxas de matrícula e fornecem uma bolsa de estudos para pesquisas. Outras opções incluem bolsas específicas de universidades, como a da Universidade de Sydney (USYDIS e University of Sydney Tuition Fee Scholarship) e bolsas oferecidas por organizações como a Australia Awards.</p>
+    <h4>Bolsas de estudo por tipo de estudo:</h4>
+    <ul>
+        <li><b>Research Training Program (RTP) Stipend Scholarship:</b> Para estudantes internacionais em cursos de pesquisa (HDR).</li>
+        <li><b>RTP Fee Offset:</b> Cobre as taxas de matrícula para estudantes de pesquisa.</li>
+        <li><b>University of Sydney International Stipend Scholarship (USYDIS):</b> Para estudantes internacionais em cursos de pesquisa na Universidade de Sydney.</li>
+        <li><b>University of Sydney Tuition Fee Scholarship:</b> Bolsa para cobrir as taxas de matrícula na Universidade de Sydney.</li>
+        <li><b>International Postgraduate Research Scholarships (IPRS):</b> Bolsa para estudantes internacionais em cursos de pós-graduação de pesquisa.</li>
+        <li><b>Australia Awards Scholarships: </b>Bolsas do governo australiano para desenvolvimento profissional e liderança em países parceiros.</li>
+    </ul>
+    <h4>Graduação</h4>
+    <ul>
+        <li><b>Bolsas da Universidade de Sydney: </b>A universidade oferece bolsas para estudantes internacionais com base no mérito, incluindo a Sydney International Student Award.</li>
+        <li><b>Bolsas da Universidade Monash:</b> Bolsas de até 100% para graduação e pós-graduação, voltadas para estudantes com potencial de liderança.</li>
+        <li><b>Bolsas da Universidade Griffith:</b> Bolsas de 50% para graduação e pós-graduação, distribuídas por mérito.</li>
+        <li><b>Bolsas de cidades menores e áreas regionais:</b> Muitas universidades em cidades menores e regiões oferecem seus próprios programas de bolsas.</li>
+    </ul>
+    <h4>Outras bolsas</h4>
+    <ul>
+        <li><b>Bolsas da Fulbright Austrália:</b> Para intercâmbio educacional e cultural entre a Austrália e os EUA.</li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" id="universidades" role="tabpanel">
+    <h4>Universidades</h4>
+    <p>As melhores universidades na Austrália para intercâmbio incluem a <b>Universidade Nacional da Austrália (ANU)</b>, a <b>Universidade de Melbourne</b>, a <b>Universidade de Sydney</b>, a <b>Universidade de Nova Gales do Sul (UNSW)</b>, a <b>Universidade de Queensland</b> e a <b>Universidade Monash</b>. Essas universidades são reconhecidas internacionalmente e oferecem uma ampla gama de cursos e oportunidades de pesquisa. A escolha da universidade ideal dependerá dos seus interesses acadêmicos e preferências pessoais, mas todas elas são excelentes opções para um intercâmbio bem-sucedido.</p>
+    <h4>Universidades de destaque</h4>
+    <ul>
+        <li><b>Universidade Nacional da Austrália (ANU):</b> Localizada em Canberra, a ANU é consistentemente classificada como uma das melhores universidades da Austrália e do mundo.</li>
+        <li><b>Universidade de Melbourne:</b> Uma das mais antigas e respeitadas universidades da Austrália, com forte foco em pesquisa e ensino.</li>
+        <li><b>Universidade de Sydney:</b> Reconhecida por sua excelência acadêmica e bela arquitetura, a Universidade de Sydney é uma escolha popular para estudantes de intercâmbio.</li>
+        <li><b>Universidade de Nova Gales do Sul (UNSW):</b> Localizada em Sydney, a UNSW se destaca em áreas como tecnologia, engenharia e design.</li>
+        <li><b>Universidade de Queensland (UQ):</b> Com campi em Brisbane, a UQ é conhecida por seu forte foco em pesquisa e excelência em ensino.</li>
+        <li><b>Universidade Monash:</b> A maior universidade da Austrália em tamanho, a Monash oferece uma vasta gama de cursos e oportunidades de pesquisa.</li>
+    </ul>
+    <p>Além dessas, outras universidades como a Universidade de Tecnologia de Sydney (UTS), a Universidade RMIT e a Universidade de Adelaide também são excelentes opções para intercâmbio.</p>
+    <p><b>Ao escolher a universidade, considere fatores como:</b></p>
+    <ul>
+        <li><b>Reputação e classificação:</b> Consulte rankings universitários como o QS World University Rankings e o THE World University Rankings para avaliar a reputação das universidades.</li>
+        <li><b>Cursos oferecidos:</b> Verifique se a universidade oferece os cursos de seu interesse e se eles são adequados para o nível de estudo desejado.</li>
+        <li><b>Localização:</b> Considere o estilo de vida de cada cidade e a proximidade de atividades culturais e de lazer.</li>
+        <li><b>Estrutura e serviços:</b> Pesquise sobre a infraestrutura da universidade, como bibliotecas, laboratórios, e serviços de apoio aos estudantes internacionais.</li>
+        <li><b>Bolsas e oportunidades de financiamento:</b> Verifique se a universidade oferece bolsas de estudo ou outras formas de auxílio financeiro para estudantes internacionais.</li>
+    </ul>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
